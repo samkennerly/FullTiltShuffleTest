@@ -128,7 +128,7 @@ print
 print qualifying_bins, "bins out of", NUM_BINS, "contain at least", MIN_HANDS, "hands."
 print "Of these bins,", failures, "failed and", suspects, "are suspicious."
 print "Fisher chi-squared statistic is", fisher_chisq
-print "Probability of this result of worse is", fisher_phi
+print "Probability of this result or worse is", fisher_phi
 if (fisher_phi < REJECT_LEVEL):
 	print "Fisher test REJECTS null hypothesis with", round(( 1.0 - fisher_phi ),4) * 100 , "percent confidence."
 elif (fisher_phi < SUSPECT_LEVEL):
