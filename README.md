@@ -1,8 +1,13 @@
 # FullTiltShuffleTest
-Two statistical tests of online poker shuffle fairness [Python]
 
-FullTilt.py (by Alfred Whitehead) extracts data from Full Tilt hand histories. BestHands.py performs statistical tests. Tests were performed using real hand histories. Additional tests used fake data to estimate statistical power.
+Two statistical tests of online poker shuffle fairness by
+[Sam Kennerly](https://github.com/samkennerly) and
+[Alf Whitehead](https://github.com/alfwhitehead).
 
-Requires working installations of Python, SciPy, poker-eval and pypoker-eval.
+* [FullTilt.py](FullTilt.py) extracts data from Full Tilt hand histories.  
+* [BestHands.py](BestHands.py) performs statistical tests.
 
-The instruction manual is here: https://sites.google.com/site/samkennerly/programs
+Requires Python, SciPy, poker-eval and pypoker-eval.
+
+For detailed instructions, see
+[https://sites.google.com/site/samkennerly/programs]([https://sites.google.com/site/samkennerly/programs)
